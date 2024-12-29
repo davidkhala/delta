@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "davidkhala-delta"
+version = "0.0.0"
+description = ""
+authors = ["David Liu <david-khala@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "davidkhala"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+delta-spark = "^3.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
